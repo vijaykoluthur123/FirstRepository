@@ -22,12 +22,12 @@ public class Module1 extends BaseClass
 		loginpage.clickOnLogin();
 
 		Pg102_HomePage homepage = new Pg102_HomePage(driver);
-		//homepage.clickOnMyInfo();
+		homepage.clickOnMyInfo();
 		homepage.clickOnContactDetails();
 		
 		Pg103_ContactDetailsPage contactdetails = new Pg103_ContactDetailsPage(driver);
-		contactdetails.clickOnEdit();
-		contactdetails.setAddressStreet1("Nandini Residencncy");
+		//contactdetails.contactdetails.clickOnEdit();
+		//contactdetails.setAddressStreet1("Nandini Residencncy");
 		contactdetails.setAddressStreet2("KPHB");
 		contactdetails.setContactCity("Hyderabad");
 		contactdetails.setStateOrProvince("Telangana");
